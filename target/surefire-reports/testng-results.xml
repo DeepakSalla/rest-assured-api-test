@@ -2,88 +2,88 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-01T21:01:00 IST" name="APISuite" finished-at="2025-07-01T21:01:09 IST" duration-ms="9125">
+  <suite started-at="2025-07-01T21:23:29 IST" name="APISuite" finished-at="2025-07-01T21:23:38 IST" duration-ms="9397">
     <groups>
     </groups>
-    <test started-at="2025-07-01T21:01:00 IST" name="APITests" finished-at="2025-07-01T21:01:09 IST" duration-ms="9125">
+    <test started-at="2025-07-01T21:23:29 IST" name="APITests" finished-at="2025-07-01T21:23:38 IST" duration-ms="9397">
       <class name="tests.SampleApiTest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:00 IST" name="setUpReport" finished-at="2025-07-01T21:01:00 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:29 IST" name="setUpReport" finished-at="2025-07-01T21:23:29 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setupRestAssured()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:00 IST" name="setupRestAssured" finished-at="2025-07-01T21:01:00 IST" duration-ms="559" status="PASS">
+        <test-method is-config="true" signature="setupRestAssured()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:29 IST" name="setupRestAssured" finished-at="2025-07-01T21:23:29 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupRestAssured -->
-        <test-method signature="createPost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:01 IST" name="createPost" finished-at="2025-07-01T21:01:03 IST" duration-ms="2224" status="PASS">
+        <test-method signature="createPost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:29 IST" name="createPost" finished-at="2025-07-01T21:23:32 IST" duration-ms="2424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:03 IST" name="flushTestReport" finished-at="2025-07-01T21:01:03 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:32 IST" name="flushTestReport" finished-at="2025-07-01T21:23:32 IST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="createPostWithInvalidData()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:03 IST" name="createPostWithInvalidData" finished-at="2025-07-01T21:01:04 IST" duration-ms="544" status="PASS">
+        <test-method signature="createPostWithInvalidData()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:32 IST" name="createPostWithInvalidData" finished-at="2025-07-01T21:23:33 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPostWithInvalidData -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:04 IST" name="flushTestReport" finished-at="2025-07-01T21:01:04 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:33 IST" name="flushTestReport" finished-at="2025-07-01T21:23:33 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="deleteNonExistingPost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:04 IST" name="deleteNonExistingPost" finished-at="2025-07-01T21:01:04 IST" duration-ms="670" status="PASS">
+        <test-method signature="deleteNonExistingPost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:33 IST" name="deleteNonExistingPost" finished-at="2025-07-01T21:23:34 IST" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteNonExistingPost -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:04 IST" name="flushTestReport" finished-at="2025-07-01T21:01:04 IST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:34 IST" name="flushTestReport" finished-at="2025-07-01T21:23:34 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="deletePost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:04 IST" name="deletePost" finished-at="2025-07-01T21:01:05 IST" duration-ms="674" status="PASS">
+        <test-method signature="deletePost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:34 IST" name="deletePost" finished-at="2025-07-01T21:23:34 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:05 IST" name="flushTestReport" finished-at="2025-07-01T21:01:05 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:34 IST" name="flushTestReport" finished-at="2025-07-01T21:23:34 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="getPostWithInvalidId()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:05 IST" name="getPostWithInvalidId" finished-at="2025-07-01T21:01:06 IST" duration-ms="551" status="PASS">
+        <test-method signature="getPostWithInvalidId()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:34 IST" name="getPostWithInvalidId" finished-at="2025-07-01T21:23:35 IST" duration-ms="634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPostWithInvalidId -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:06 IST" name="flushTestReport" finished-at="2025-07-01T21:01:06 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:35 IST" name="flushTestReport" finished-at="2025-07-01T21:23:35 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="updatePost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:06 IST" name="updatePost" finished-at="2025-07-01T21:01:07 IST" duration-ms="1426" status="PASS">
+        <test-method signature="updatePost()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:35 IST" name="updatePost" finished-at="2025-07-01T21:23:37 IST" duration-ms="1598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePost -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:07 IST" name="flushTestReport" finished-at="2025-07-01T21:01:07 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:37 IST" name="flushTestReport" finished-at="2025-07-01T21:23:37 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="validateHeaders()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:07 IST" name="validateHeaders" finished-at="2025-07-01T21:01:08 IST" duration-ms="573" status="PASS">
+        <test-method signature="validateHeaders()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:37 IST" name="validateHeaders" finished-at="2025-07-01T21:23:37 IST" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeaders -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:08 IST" name="flushTestReport" finished-at="2025-07-01T21:01:08 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:37 IST" name="flushTestReport" finished-at="2025-07-01T21:23:37 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="validateJsonBody()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:08 IST" name="validateJsonBody" finished-at="2025-07-01T21:01:08 IST" duration-ms="607" status="PASS">
+        <test-method signature="validateJsonBody()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:37 IST" name="validateJsonBody" finished-at="2025-07-01T21:23:38 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateJsonBody -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:08 IST" name="flushTestReport" finished-at="2025-07-01T21:01:08 IST" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:38 IST" name="flushTestReport" finished-at="2025-07-01T21:23:38 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
-        <test-method signature="validateStatusCode()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:08 IST" name="validateStatusCode" finished-at="2025-07-01T21:01:09 IST" duration-ms="658" status="PASS">
+        <test-method signature="validateStatusCode()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:38 IST" name="validateStatusCode" finished-at="2025-07-01T21:23:38 IST" duration-ms="570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateStatusCode -->
-        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:01:09 IST" name="flushTestReport" finished-at="2025-07-01T21:01:09 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="flushTestReport()[pri:0, instance:tests.SampleApiTest@45b9a632]" started-at="2025-07-01T21:23:38 IST" name="flushTestReport" finished-at="2025-07-01T21:23:38 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushTestReport -->
