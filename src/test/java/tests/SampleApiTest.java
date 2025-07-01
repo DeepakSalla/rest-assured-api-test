@@ -71,4 +71,30 @@ public class SampleApiTest extends BaseTest {
         Response response = given().delete("/posts/1");
         Assert.assertEquals(response.getStatusCode(), 200);
     }
+
+    @Test
+    public void createPostWithInvalidData() {
+        String invalidRequest = "{" +
+                "\"invalidField\":\"data\"" +
+                "}";
+
+        Response response = given()
+                .contentType(JSON)
+                .body(invalidRequest)
+                .post("/posts");
+
+        Assert.assertTrue(response.getStatusCode() >= 400, "Expected client error status code");
+    }
+
+    @Test
+    public void getPostWithInvalidId() {
+        Response response = given().get("/posts/invalid-id");
+        Assert.assertTrue(response.getStatusCode() >= 400, "Expected error status code for invalid ID");
+    }
+
+    @Test
+    public void deleteNonExistingPost() {
+        Response response = given().delete("/posts/999999");
+        Assert.assertTrue(response.getStatusCode() == 200 || response.getStatusCode() == 204 || response.getStatusCode() == 404);
+    }
 }
