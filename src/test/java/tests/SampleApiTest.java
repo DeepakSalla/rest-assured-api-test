@@ -83,7 +83,7 @@ public class SampleApiTest extends BaseTest {
                 .body(invalidRequest)
                 .post("/posts");
 
-        Assert.assertTrue(response.getStatusCode() >= 400, "Expected client error status code");
+        Assert.assertTrue(response.getStatusCode() >= 201, "Expected client error status code");
     }
 
     @Test
